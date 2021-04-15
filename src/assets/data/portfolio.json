@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Mint Beach",
+    "snippet": "Create an ECommerce backend for your Stripe account in minutes.",
+    "technologies": [
+      { "icon": "database", "label": "MongoDB" },
+      { "icon": "server", "label": "ExpressJS" },
+      { "icon": "code-branch", "label": "GitHub" },
+      { "icon": "tv", "label": "VueJS" },
+      { "icon": "cloud", "label": "GCP" }
+    ],
+    "projectLink": {
+      "label": "mintbeach.io",
+      "link": "https://www.mintbeach.io"
+    },
+    "githubLink": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus commodo, sociis purus arcu elementum urna, mauris porta. Diam tristique turpis ultrices volutpat nulla malesuada. Ipsum risus ac, eu, volutpat eget non eget. Pulvinar ultricies a est dictum sit etiam nec ipsum enim. Diam facilisis neque, cursus orci, nisl diam cursus."
+  },
+  {
+    "title": "Travel Engine",
+    "snippet": "Create an ECommerce backend for your Stripe account in minutes.",
+    "technologies": [
+      { "icon": "database", "label": "MongoDB" },
+      { "icon": "server", "label": "ExpressJS" },
+      { "icon": "code-branch", "label": "GitHub" },
+      { "icon": "tv", "label": "VueJS" },
+      { "icon": "cloud", "label": "GCP" }
+    ],
+    "projectLink": {
+      "label": "mintbeach.io",
+      "link": "https://www.mintbeach.io"
+    },
+    "githubLink": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus commodo, sociis purus arcu elementum urna, mauris porta. Diam tristique turpis ultrices volutpat nulla malesuada. Ipsum risus ac, eu, volutpat eget non eget. Pulvinar ultricies a est dictum sit etiam nec ipsum enim. Diam facilisis neque, cursus orci, nisl diam cursus."
+  },
+  {
+    "title": "Flock",
+    "snippet": "Create an ECommerce backend for your Stripe account in minutes.",
+    "technologies": [
+      { "icon": "database", "label": "MongoDB" },
+      { "icon": "server", "label": "ExpressJS" },
+      { "icon": "code-branch", "label": "GitHub" },
+      { "icon": "tv", "label": "VueJS" },
+      { "icon": "cloud", "label": "GCP" }
+    ],
+    "projectLink": {
+      "label": "mintbeach.io",
+      "link": "https://www.mintbeach.io"
+    },
+    "githubLink": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus commodo, sociis purus arcu elementum urna, mauris porta. Diam tristique turpis ultrices volutpat nulla malesuada. Ipsum risus ac, eu, volutpat eget non eget. Pulvinar ultricies a est dictum sit etiam nec ipsum enim. Diam facilisis neque, cursus orci, nisl diam cursus."
+  }
+]

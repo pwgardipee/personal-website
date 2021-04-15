@@ -1,0 +1,119 @@
+{
+  "experience": [
+    {
+      "image": "holos.png",
+      "company": "Holos Inc",
+      "positions": [
+        {
+          "title": "Full Stack Developer",
+          "location": "Madison, WI",
+          "startDate": "November 2019",
+          "endDate": "Present",
+          "description": [
+            "Standardized UI components across all modules of production software.",
+            "Worked on technical debt backlog, for continuous product improvement.",
+            "Wrote code parse/replacement script to refactor code base to allow for framework update"
+          ]
+        }
+      ]
+    },
+    {
+      "image": "SKYGEN.png",
+      "company": "SKYGEN USA",
+      "positions": [
+        {
+          "title": "Software Development Intern",
+          "location": "Mequon, WI",
+          "startDate": "May 2018 ",
+          "endDate": "August 2018",
+          "description": [
+            "Standardized UI components across all modules of production software.",
+            "Worked on technical debt backlog, for continuous product improvement.",
+            "Wrote code parse/replacement script to refactor code base to allow for framework update"
+          ]
+        },
+        {
+          "title": "QA Automation Intern",
+          "location": "Mequon, WI",
+          "startDate": "May 2017 ",
+          "endDate": "August 2017",
+          "description": [
+            "Collaborated with the Quality Assurance team to develop automation testing steps",
+            "Wrote test scripts using C# and selenium framework to validate front end and back end development efforts"
+          ]
+        },
+        {
+          "title": "Software Design Intern",
+          "location": "Mequon, WI",
+          "startDate": "May 2016",
+          "endDate": "August 2016",
+          "description": [
+            "Wrote design specification documentation",
+            "Created low/high fidelity prototypes based on discovery and framing activities",
+            "Actively participated in the iterative feedback loop, incorporating user feedback in designs"
+          ]
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "University of Wisconsin-Madison",
+      "image": "UW.svg",
+      "date": "May 2019",
+      "outcomes": ["B.S. Computer Engineering", "B.S. Computer Sciences"],
+      "GPA": "3.4/4.0",
+      "coursework": [
+        "Mobile Computing",
+        "Software Engineering",
+        "Operating Systems",
+        "Database Management Systems",
+        "Computer Architecture",
+        "Microelectromechanical Systems",
+        "Digital System Design and Synthesis",
+        "Signal Processing",
+        "Data Structures",
+        "Machine Organization",
+        "Microprocessor Systems"
+      ]
+    },
+    {
+      "title": "Nanyang Technological University",
+      "image": "NTU.svg",
+      "date": "Fall 2017",
+      "outcomes": ["Study Abroad"],
+      "coursework": [
+        "Algorithms",
+        "Human-Computer Interaction",
+        "Digital Systems Fundamentals"
+      ]
+    }
+  ],
+  "skills": {
+    "programmingLanguages": {
+      "proficient": ["C", "C#", "Java", "Verilog", "SystemVerilog"],
+      "intermediate": ["C++", "MATLAB", "T-SQL", "JavaScript", "HTML"],
+      "basic": ["Python", "R", "GoLang"]
+    },
+    "technologies": [
+      "ReactJS",
+      "Google Firebase",
+      "Android OS",
+      "Xamarin",
+      "SolidWorks",
+      "ANSYS"
+    ],
+    "spokenLanguages": ["English", "Spanish"]
+  },
+  "awardsHonors": [
+    {
+      "title": "Powers-Knapp Scholarship Program",
+      "snippet": "4 Year Scholarship",
+      "description": "An academic scholarship through the University of Wisconsin - Madison. Excellence in scholarship, leadership, and service is instilled in all scholars during the regular meetings and community service events throughout the student’s college career."
+    },
+    {
+      "title": "Dean’s Honor List ",
+      "snippet": "Fall 2016, Fall 2018"
+    }
+  ]
+}
