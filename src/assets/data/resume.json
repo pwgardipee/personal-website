@@ -10,9 +10,13 @@
           "startDate": "November 2019",
           "endDate": "Present",
           "description": [
-            "Standardized UI components across all modules of production software.",
-            "Worked on technical debt backlog, for continuous product improvement.",
-            "Wrote code parse/replacement script to refactor code base to allow for framework update"
+            "Created the front-end VueJS project from scratch along with one other developer.",
+            "Proposed and implemented typeography standards for front-end UI.",
+            "Developed front-end permission architecture using CASL(authorization JavaScript library)",
+            "Added new functionality and tooling to existing structures in the back-end ExpressJS project.",
+            "Deployed the front-end VueJS app to AWS S3/CloudFront.",
+            "Deployed the back-end ExpressJS app to AWS EKS.",
+            "Created build and deploy pipelines for front and back end using GitHub Actions."
           ]
         }
       ]
@@ -29,7 +33,7 @@
           "description": [
             "Standardized UI components across all modules of production software.",
             "Worked on technical debt backlog, for continuous product improvement.",
-            "Wrote code parse/replacement script to refactor code base to allow for framework update"
+            "Wrote code parse/replacement script to refactor code base to allow for framework update."
           ]
         },
         {
@@ -38,8 +42,8 @@
           "startDate": "May 2017 ",
           "endDate": "August 2017",
           "description": [
-            "Collaborated with the Quality Assurance team to develop automation testing steps",
-            "Wrote test scripts using C# and selenium framework to validate front end and back end development efforts"
+            "Collaborated with the Quality Assurance team to develop automation testing steps.",
+            "Wrote test scripts using C# and selenium framework to validate front end and back end development efforts."
           ]
         },
         {
@@ -48,9 +52,9 @@
           "startDate": "May 2016",
           "endDate": "August 2016",
           "description": [
-            "Wrote design specification documentation",
-            "Created low/high fidelity prototypes based on discovery and framing activities",
-            "Actively participated in the iterative feedback loop, incorporating user feedback in designs"
+            "Wrote design specification documentation.",
+            "Created low/high fidelity prototypes based on discovery and framing activities.",
+            "Actively participated in the iterative feedback loop, incorporating user feedback in designs."
           ]
         }
       ]
@@ -91,24 +95,25 @@
   ],
   "skills": {
     "programmingLanguages": {
-      "proficient": ["C", "C#", "Java", "Verilog", "SystemVerilog"],
-      "intermediate": ["C++", "MATLAB", "T-SQL", "JavaScript", "HTML"],
-      "basic": ["Python", "R", "GoLang"]
+      "proficient": ["C", "Java", "JavaScript", "HTML"],
+      "intermediate": ["C++", "C#", "Verilog", "SystemVerilog"],
+      "basic": ["Python", "R", "GoLang", "MATLAB", "T-SQL"]
     },
     "technologies": [
+      "VueJS",
       "ReactJS",
+      "AWS",
       "Google Firebase",
+      "Kubernetes",
       "Android OS",
-      "Xamarin",
-      "SolidWorks",
-      "ANSYS"
+      "Xamarin"
     ],
     "spokenLanguages": ["English", "Spanish"]
   },
   "awardsHonors": [
     {
       "title": "Powers-Knapp Scholarship Program",
-      "snippet": "4 Year Scholarship",
+      "snippet": "4-Year Scholarship",
       "description": "An academic scholarship through the University of Wisconsin - Madison. Excellence in scholarship, leadership, and service is instilled in all scholars during the regular meetings and community service events throughout the student’s college career."
     },
     {
