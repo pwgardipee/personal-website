@@ -30,6 +30,16 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(),
+  scrollBehavior(to, from, savedPosition) {
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve({
+          el: to.hash,
+          behavior: "smooth",
+        });
+      }, 500);
+    });
+  },
   routes,
 });
 

@@ -35,9 +35,13 @@
           some projects that venture out of that bubble soon!
         </div>
 
-        <div class="mt-4 md:mt-6 text-sm font-medium hidden lg:block">
+        <div class="mt-4 md:mt-6 text-sm font-medium">
           <router-link to="/resume" class="hover:underline"
             >Resume <font-awesome-icon icon="external-link-alt" class="text-xs"
+          /></router-link>
+          <router-link to="/portfolio" class="hover:underline ml-4"
+            >Portfolio
+            <font-awesome-icon icon="external-link-alt" class="text-xs"
           /></router-link>
         </div>
         <div class="mt-4 md:mt-6 text-lg md:text-2xl">
@@ -63,37 +67,22 @@
             <font-awesome-icon :icon="['fab', 'angellist']" class="ml-4" />
           </a>
         </div>
-        <div class="mt-4 md:mt-6 text-sm font-medium lg:hidden">
-          <router-link to="/resume" class="hover:underline"
-            >Resume <font-awesome-icon icon="external-link-alt" class="text-xs"
-          /></router-link>
-          <router-link to="/portfolio" class="hover:underline ml-4"
-            >Portfolio
-            <font-awesome-icon icon="external-link-alt" class="text-xs"
-          /></router-link>
-        </div>
       </div>
       <div class="md:px-12">
         <div
           class="w-full bg-white bg-opacity-5 mt-2 md:mt-5 p-4 transition duration-500 ease-in-out transform md:hover:scale-110"
-          v-for="project in projects"
-          :key="project.name"
+          v-for="project in portfolio"
+          :key="project.title"
         >
-          <router-link :to="`/project/${project.name}`">
+          <router-link :to="`/portfolio/#${project.title.toLowerCase()}`">
             <div class="uppercase text-xs">
-              {{ formatTech(project.technology) }}
+              {{ formatTech(project.technologies) }}
             </div>
-            <div class="text-4xl mt-8">{{ project.name }}</div>
+            <div class="text-4xl mt-4">{{ project.title }}</div>
             <div class="text-xs text-gray-400 mt-1 mb-2">
-              {{ project.description }}
+              {{ project.snippet }}
             </div>
           </router-link>
-        </div>
-        <div class="mt-4 text-sm font-medium float-right hidden lg:block">
-          <router-link to="/portfolio" class="hover:underline"
-            >Portfolio
-            <font-awesome-icon icon="external-link-alt" class="text-xs"
-          /></router-link>
         </div>
       </div>
     </div>
@@ -101,18 +90,18 @@
 </template>
 
 <script>
-import projects from "./../assets/data/projects.json";
+import portfolio from "./../assets/data/portfolio.json";
 export default {
   data() {
     return {
-      projects,
+      portfolio,
     };
   },
   methods: {
     formatTech(techArray) {
       return techArray.reduce((accumulator, currentValue, index) => {
         const char = index ? "•" : "";
-        return `${accumulator} ${char} ${currentValue}`;
+        return `${accumulator} ${char} ${currentValue.label}`;
       }, "");
     },
   },
