@@ -1,10 +1,11 @@
 <template>
   <div>
-    <navbar class="w-full p-4 mb-48" />
+    <navbar class="w-full p-4 mb-48" linkTo="resume" />
 
     <div
       v-for="(item, index) in portfolio"
       :key="index"
+      :id="item.title.toLowerCase()"
       class="mb-16 grid"
       :style="
         index % 2

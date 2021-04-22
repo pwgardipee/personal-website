@@ -1,6 +1,6 @@
 <template>
-  <div class="">
-    <navbar class="fixed top-0 w-full p-4" />
+  <div>
+    <navbar class="w-full p-4" linkTo="portfolio" />
     <experience :resume="resume" class="mt-40" />
     <education :resume="resume" class="mt-40" />
     <skills :resume="resume" class="mt-40" />
