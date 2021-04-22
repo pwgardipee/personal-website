@@ -3,10 +3,10 @@
     <div class="text-center max-w-2xl m-auto">
       <div class="text-4xl uppercase font-bold">Skills</div>
       <div
-        class="grid gap-4 text-left mt-14"
+        class="grid gap-4 text-left mt-14 px-4"
         style="grid-template-columns: max-content auto"
       >
-        <div class="text-4xl font-extrabold">
+        <div class="text-2xl md:text-4xl font-extrabold">
           <div>Programming</div>
           <div>Languages</div>
         </div>
@@ -44,7 +44,7 @@
             </div>
           </div>
         </div>
-        <div class="text-4xl font-extrabold">
+        <div class="text-2xl md:text-4xl font-extrabold">
           <div>Technologies</div>
         </div>
         <div style="border-left: 1px solid white" class="pl-4">
@@ -58,7 +58,7 @@
             </div>
           </div>
         </div>
-        <div class="text-4xl font-extrabold">
+        <div class="text-2xl md:text-4xl font-extrabold">
           <div>Spoken</div>
           <div>Languages</div>
         </div>
