@@ -9,7 +9,7 @@
       >
         <div>
           <img
-            :src="`src/assets/images/resume/${education.image}`"
+            :src="`/assets/images/resume/${education.image}`"
             alt=""
             class="hidden sm:block w-0 sm:w-24"
           />
