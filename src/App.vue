@@ -6,15 +6,6 @@
   </router-view>
 </template>
 
-<script>
-import Navbar from "./components/Navbar.vue";
-export default {
-  components: {
-    Navbar,
-  },
-};
-</script>
-
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap");
 #app {
