@@ -13,41 +13,41 @@
       "label": "mintbeach.io",
       "link": "https://www.mintbeach.io"
     },
-    "githubLink": "",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus commodo, sociis purus arcu elementum urna, mauris porta. Diam tristique turpis ultrices volutpat nulla malesuada. Ipsum risus ac, eu, volutpat eget non eget. Pulvinar ultricies a est dictum sit etiam nec ipsum enim. Diam facilisis neque, cursus orci, nisl diam cursus."
+    "githubLink": "https://github.com/pwgardipee/mint-beach-frontend",
+    "description": "The first step when creating an e-commerce website is to use a no-code product like Shopify or Wix. These solutions will get your website up and running, but you will be stuck trying to design a website with finicky tools, only to be at the mercy of ever-changing pricing models. The next step is to build your own website on top of something like Stripe. The easy part is to design the front-end, but the real challenge is creating a server to manage your user accounts and their permissions. Mint Beach allows someone to create a fully functional e-commerce backend server in less than 30 seconds so that they can spend the majority of their time building the front-end UI."
   },
   {
     "title": "Travel Engine",
-    "snippet": "Create an ECommerce backend for your Stripe account in minutes.",
+    "snippet": "Progressive web application that suggests travel destinations based on preference of weather and landforms",
     "technologies": [
-      { "icon": "database", "label": "MongoDB" },
-      { "icon": "server", "label": "ExpressJS" },
+      { "icon": "database", "label": "Firestore" },
+      { "icon": "server", "label": "FB Functions" },
       { "icon": "code-branch", "label": "GitHub" },
-      { "icon": "tv", "label": "VueJS" },
-      { "icon": "cloud", "label": "GCP" }
+      { "icon": "tv", "label": "ReactJS" },
+      { "icon": "cloud", "label": "FB Hosting" }
     ],
     "projectLink": {
-      "label": "mintbeach.io",
-      "link": "https://www.mintbeach.io"
+      "label": "https://travelengine-3e5e4.web.app/",
+      "link": "https://travelengine-3e5e4.web.app/"
     },
-    "githubLink": "",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus commodo, sociis purus arcu elementum urna, mauris porta. Diam tristique turpis ultrices volutpat nulla malesuada. Ipsum risus ac, eu, volutpat eget non eget. Pulvinar ultricies a est dictum sit etiam nec ipsum enim. Diam facilisis neque, cursus orci, nisl diam cursus."
+    "githubLink": "https://github.com/pwgardipee/TravelEngine",
+    "description": "Travel Engine gives you suggestions on where to take a trip based on your weather and landscape preferences. Once you move forward with one of our suggested cities, Travel Engine will give you plane ticket and hotel booking options so that you can take care of all of your planning in one place."
   },
   {
     "title": "Flock",
-    "snippet": "Create an ECommerce backend for your Stripe account in minutes.",
+    "snippet": "Cross-Platform mobile application used for collaboration in a university classroom setting",
     "technologies": [
-      { "icon": "database", "label": "MongoDB" },
-      { "icon": "server", "label": "ExpressJS" },
+      { "icon": "database", "label": "Realtime DB" },
+      { "icon": "server", "label": "FB Functions" },
       { "icon": "code-branch", "label": "GitHub" },
-      { "icon": "tv", "label": "VueJS" },
-      { "icon": "cloud", "label": "GCP" }
+      { "icon": "tv", "label": "React Native" },
+      { "icon": "cloud", "label": "FB Hosting" }
     ],
     "projectLink": {
-      "label": "mintbeach.io",
-      "link": "https://www.mintbeach.io"
+      "label": "Google Play Store Listing",
+      "link": "https://play.google.com/store/apps/details?id=com.Flock.FlockV1&hl=en_US&gl=US"
     },
-    "githubLink": "",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Luctus commodo, sociis purus arcu elementum urna, mauris porta. Diam tristique turpis ultrices volutpat nulla malesuada. Ipsum risus ac, eu, volutpat eget non eget. Pulvinar ultricies a est dictum sit etiam nec ipsum enim. Diam facilisis neque, cursus orci, nisl diam cursus."
+    "githubLink": "https://github.com/pwgardipee/Flock",
+    "description": "Every class at UW-Madison provides different forums to let students communicate with each other and the professor. Some classes provide none at all. Flock provides a chat room for every class at UW-Madison starting on the first day of class. Students will have instant access to a network of students in their classes so that they can ask questions and provide answers without waiting for the professor to respond."
   }
 ]
