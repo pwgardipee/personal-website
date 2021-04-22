@@ -5,7 +5,7 @@
       <div class="text-left mt-14">
         <div
           style="border-left: 1px solid white"
-          class="pl-4 mb-4"
+          class="pl-4 mb-4 ml-4"
           v-for="award in resume.awardsHonors"
           :key="award.title"
         >
