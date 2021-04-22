@@ -16,7 +16,11 @@ module.exports = {
       150: "1.5",
       200: "2",
     },
-    extend: {},
+    extend: {
+      gridTemplateColumns: {
+        "100-auto": "100px auto",
+      },
+    },
   },
   variants: {
     extend: {},

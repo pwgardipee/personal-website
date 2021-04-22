@@ -3,8 +3,7 @@
     <div class="text-center max-w-2xl m-auto">
       <div class="text-4xl uppercase font-bold">Education</div>
       <div
-        class="grid gap-4 text-left mt-14"
-        style="grid-template-columns: 100px auto"
+        class="grid gap-4 text-left mt-14 grid-cols-1 sm:grid-cols-100-auto px-4 sm:px-0"
         v-for="education in resume.education"
         :key="education.title"
       >
@@ -12,7 +11,7 @@
           <img
             :src="`src/assets/images/resume/${education.image}`"
             alt=""
-            class="w-full"
+            class="hidden sm:block w-0 sm:w-24"
           />
         </div>
         <div style="border-left: 1px solid white" class="pl-4">
