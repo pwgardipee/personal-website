@@ -71,7 +71,7 @@
       <div class="md:px-12">
         <div
           class="w-full bg-white bg-opacity-5 mt-2 md:mt-5 p-4 transition duration-500 ease-in-out transform md:hover:scale-110"
-          v-for="project in portfolio"
+          v-for="project in portfolio.slice(0, 3)"
           :key="project.title"
         >
           <router-link :to="`/portfolio/#${project.title.toLowerCase()}`">
