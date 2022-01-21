@@ -17,6 +17,22 @@
     "description": "The first step when creating an e-commerce website is to use a no-code product like Shopify or Wix. These solutions will get your website up and running, but you will be stuck trying to design a website with finicky tools, only to be at the mercy of ever-changing pricing models. The next step is to build your own website on top of something like Stripe. The easy part is to design the front-end, but the real challenge is creating a server to manage your user accounts and their permissions. Mint Beach allows someone to create a fully functional e-commerce backend server in less than 30 seconds so that they can spend the majority of their time building the front-end UI."
   },
   {
+    "title": "Wunmo Threads",
+    "snippet": "An ECommerce website for Wunmo Threads, a premium sports sock brand.",
+    "technologies": [
+      { "icon": "server", "label": "Mint Beach" },
+      { "icon": "tv", "label": "VueJS" },
+      { "icon": "code-branch", "label": "GitHub" },
+      { "icon": "cloud", "label": "GCP Cloud Run" }
+    ],
+    "projectLink": {
+      "label": "wunmothreads.com",
+      "link": "https://www.wunmothreads.com"
+    },
+    "githubLink": false,
+    "description": "This is the first ECommerce website built on top of Mint Beach. The front-end is built with VueJS and is hosted on GCP Cloud Run. User authentication/authorization, database management, and all other back-end interactions are managed by Mint Beach. This is a functional ECommerce website and is currently accepting and shipping orders!"
+  },
+  {
     "title": "Travel Engine",
     "snippet": "Progressive web application that suggests travel destinations based on preference of weather and landforms",
     "technologies": [
