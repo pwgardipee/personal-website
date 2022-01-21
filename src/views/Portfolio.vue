@@ -56,7 +56,10 @@
               class="inline-block mr-1"
               :icon="['fab', 'github']"
             />
-            <div class="inline-block text-sm hover:underline">
+            <div v-if="!item.githubLink" class="inline-block text-sm italic">
+              <div>Private</div>
+            </div>
+            <div v-else class="inline-block text-sm hover:underline">
               <a :href="item.githubLink" target="_blank">GitHub</a>
             </div>
           </div>
